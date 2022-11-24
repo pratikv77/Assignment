@@ -19,7 +19,7 @@ import study.service.StudentServiceImpl;
 @RestController
 public class StudentController {
 	
-	
+	@Autowired
 	private StudentService sService;
 	
 	//Create
