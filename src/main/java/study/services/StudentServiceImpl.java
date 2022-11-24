@@ -1,4 +1,4 @@
-package study.service;
+package study.services;
 
 import java.util.Optional;
 

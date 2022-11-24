@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import study.entity.Student;
-import study.service.StudentService;
-import study.service.StudentServiceImpl;
+import study.services.StudentService;
+import study.services.StudentServiceImpl;
 
 
 @RestController
