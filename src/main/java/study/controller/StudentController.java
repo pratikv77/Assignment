@@ -42,8 +42,8 @@ public class StudentController {
 	}
 	
 	//Delete
-	@DeleteMapping("/students")
-	void deleteStudent(@RequestParam Integer id) {
+	@DeleteMapping("/students/{id}")
+	void deleteStudent(@PathVariable Integer id) {
 		sService.deleteStudent(id);
 	}
 	
